@@ -163,6 +163,9 @@ body {
 #sign-up {
     position: relative;
     display: flex;
+    /* display: grid;
+    grid-template-columns: 50% 50%; */
+    /* gap: 50px; */
     padding: 20px 200px;
     padding-top: 100px;
 }
@@ -172,6 +175,8 @@ body {
     position: relative;
     text-align: center;
     width: 600px;
+    /* width: 66%; */
+    /* width: auto; */
     margin: 30px auto;
     border: 2px solid #000;
     margin-left: 110px;
@@ -180,6 +185,7 @@ body {
 #sign-up .img{  
     width: 625px;
     height: auto;
+    /* width: 100%; */
     margin: 20px 30px; 
 }
 
@@ -187,7 +193,7 @@ body {
     display: inline-block;
     /* justify-content: center; */
     position: relative;
-    width: 50%;
+    width: 100%;
     margin: 20px;
     padding: 15px;
     margin-left: 130px;
