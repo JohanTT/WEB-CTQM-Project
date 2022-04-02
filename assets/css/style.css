@@ -303,6 +303,7 @@ body {
 #prime .course-packs {
     padding: 30px 0;
     display: flex;
+    justify-content: space-around;
     min-height: 260px;
 }
 
@@ -320,14 +321,6 @@ body {
 #prime .prime-wrap:hover {
     box-shadow: 10px 10px #3D1F1D;
     transform: scale(1.05);
-}
-
-#prime .prime-pack {
-
-}
-
-#prime .prime-pack.rounded {
-
 }
 
 #prime .ribbon-B {
@@ -389,7 +382,7 @@ body {
     height: 150px;
 }
 
-#prime.primepack-card-body {
+#prime .primepack-card-body {
     min-height: 70px;
     padding: 5pt 10pt 10pt 10pt!important;
 }
@@ -570,6 +563,7 @@ body {
 #tutorials .major-courses a:hover {
     /* padding: 10px; */
     transform: scale(1.2);
+    text-decoration: none;
 }
 
 
